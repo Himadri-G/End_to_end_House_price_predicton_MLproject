@@ -91,7 +91,7 @@ python src/House_price_prediction/pipeline/stage05_model_evaluation.py
 
 ## Tech Stack
 
-- **Python 3.x**: Core programming language
+- **Python 3.13.7**: Core programming language
 - **scikit-learn**: Machine learning algorithms
 - **pandas**: Data manipulation and analysis
 - **PyYAML**: Configuration management
