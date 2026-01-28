@@ -3,5 +3,6 @@ Name: House_price_prediction
 Version: 0.0.0
 Author: Himadri
 Author-email: himadrigoswami191118@gmail.com
-Dynamic: author
-Dynamic: author-email
+Dynamic:
+  - author
+  - author-email
