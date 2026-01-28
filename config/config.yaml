@@ -1,0 +1,27 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_dir_features: data/raw/data.csv
+  source_dir_target: data/raw/output.csv
+  train_path: artifacts/data_ingestion/train.csv
+  test_path: artifacts/data_ingestion/test.csv
+
+data_validation:
+  root_dir: artifacts/data_validation
+  schema_path: config/schema.yaml
+
+data_preprocessing:
+  root_dir: artifacts/preprocessing
+  preprocessing_path: artifacts/preprocessing/preprocessor.joblib
+
+model_training: 
+  root_dir: artifacts/model_training
+  model_path: artifacts/model_training/model.joblib
+  mlfow_experiment_name: "house_price_prediction"
+  params_file: config/params.yaml
+
+model_evaluation:
+  root_dir: artifacts/model_evaluation
+  metrics_file: metrics.json
+  plot_dir: artifacts/model_evaluation/plots
